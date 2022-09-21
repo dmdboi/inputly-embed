@@ -50,9 +50,9 @@ function m() {
       </div>
     </div>
     <div>
-      <label for="message" class="block text-sm font-medium text-gray-700">Message</label>
+      <label for="message" class="block text-sm font-medium text-gray-700">Feedback</label>
       <div class="mt-1 flex rounded-md shadow-sm">
-        <textarea type="text" name="message" id="i-message" required placeholder="I really liked..."
+        <textarea type="text" name="message" id="i-message" required placeholder="What's on your mind?"
           class="block w-full min-w-0 flex-1 rounded-md border-gray-300 focus:border-blue-500 focus:ring-blue-500 sm:text-sm"></textarea>
       </div>
     </div>
