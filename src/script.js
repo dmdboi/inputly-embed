@@ -65,7 +65,7 @@ function m() {
   fw.innerHTML = f
 
   // Create Button and append to Wrapper
-  const button = `<div class="flex justify-end"><button onclick="tog('i-fw')" class="text-lg bg-blue-800 hover:bg-blue-700 transition duration-200 ease-in hover:-translate-y-1 text-white rounded-full h-8 w-8">?</button><div>`
+  const button = `<div class="flex justify-end"><button onclick="tog('i-fw')" class="text-xl bg-blue-800 hover:bg-blue-700 transition duration-200 ease-in hover:-translate-y-1 text-white rounded-full h-12 w-12">📣</button><div>`
   bw.innerHTML += button
 
   document.body.appendChild(bw);
