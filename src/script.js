@@ -10,7 +10,7 @@ function m() {
 
   // Attach CSS to head
   const l = document.createElement('l');
-  l.href = '../build/tailwind.min.css'
+  l.href = 'https://inputly.io/tailwind.min.css'
   l.type = 'text/css';
   l.rel = 'stylesheet';
   l.media = 'screen';
@@ -39,13 +39,6 @@ function m() {
       <label for="email" class="block text-sm font-medium text-gray-700">Email Address</label>
       <div class="mt-1 flex rounded-md shadow-sm">
         <input type="text" name="email" autocomplete="email" placeholder="John@doe.co.uk" id="i-email" required
-          class="block w-full min-w-0 flex-1 rounded-md border-gray-300 focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
-      </div>
-    </div>
-    <div>
-      <label for="rating" class="block text-sm font-medium text-gray-700">How would you rate this experience?</label>
-      <div class="mt-1 flex rounded-md shadow-sm">
-        <input type="number" name="rating" id="i-rating" min="0" max="10" placeholder="5" required
           class="block w-full min-w-0 flex-1 rounded-md border-gray-300 focus:border-blue-500 focus:ring-blue-500 sm:text-sm">
       </div>
     </div>
