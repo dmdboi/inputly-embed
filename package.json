@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "minify src/script.js > build/script.min.js",
-    "tailwind": "npx tailwindcss -i ./src/tailwind.css -o ./build/tailwind.min.css --watch"
+    "tailwind": "npx tailwindcss -i ./src/tailwind.css -o ./build/inputly.min.css --watch"
   },
   "author": "",
   "license": "ISC",

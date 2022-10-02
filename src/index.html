@@ -7,13 +7,50 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Embed Example</title>
 
-  <link href="../build/tailwind.min.css" type="text/css" rel="stylesheet" />
-
-  <script id="inputly" src="./script.js" form="w4tni390xl7vq7tjo"></script>
+  <<link href="../build/inputly.min.css" rel="stylesheet" />
 </head>
 
-<body>
+<body style="height: 19000px">
+  <div id="i-fw">
+    <div id="i-f">
+      <div style="display: none;" id="i-success">
+        <p>Thank you for the f!</p>
+      </div>
+      <div style="display: none;" id="i-error">
+        <p>There was an error submitting this form</p>
+      </div>
+      <form id="i-form" method="POST">
+        <div>
+          <label id="i-label" for="email">Email Address</label>
+          <div id="i-input-w">
+            <input type="text" name="email" autocomplete="email" placeholder="John@doe.co.uk" id="i-email" required" />
+          </div>
+        </div>
+        <div>
+          <label id="i-label" for="message">Feedback</label>
+          <div id="i-input-w">
+            <textarea type="text" name="message" id="i-message" required placeholder="What's on your mind?"></textarea>
+          </div>
+        </div>
+        <div>
+          <div id="i-footer">
+            <button onclick="subF();" type="button" id="i-button">
+              Submit
+            </button>
+          </div>
+          <div id="i-link">
+            Powered by <a href='https://inputly.io'>Inputly</a>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
 
+  <div id="i-logo">
+    <div>
+      <button onclick="tog('i-fw')">📣</button>
+    </div>
+  </div>
 </body>
 
 </html>
